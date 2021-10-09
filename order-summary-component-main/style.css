@@ -1,0 +1,118 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.popup {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 15;
+    top: 25%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background: white;
+    border-radius: 20px;
+}
+
+.plan {
+    background-color: whitesmoke;
+    width: 320px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.price {
+    color: rgb(44, 44, 133);
+    margin: 5px;
+    position: relative;
+    right: 15px;
+    top: -40px;
+}
+
+.price-p {
+    color: rgb(87, 87, 90);
+    margin: 5px;
+    position: relative;
+    right: 15px;
+    top: -45px;
+}
+
+.price-a {
+    font-weight: bold;
+    position: relative;
+    top: -4.7em;
+    left: 7em;
+    color: darkblue;
+}
+
+.top {
+    color: rgb(114, 114, 114);
+}
+
+h2 {
+    font-size: 2000;
+    font-weight: 900;
+    color: rgba(6, 6, 77, 0.822);
+}
+
+.center_image {
+    position: relative;
+    top: 15px;
+    margin-right: 200px;
+    height: 50px;
+    width: 50px;
+}
+
+img {
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+body {
+    background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.payment {
+    cursor: pointer;
+    position: relative;
+    box-shadow: 2px 8px #e9e8e8;
+    top: 0px;
+    background-color: darkblue;
+    margin: 20px;
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.payment-text {
+    position: inherit;
+    font-weight: bold;
+    color: white;
+    top: 10px;
+}
+
+.cancel {
+    font-weight: 550;
+    cursor: pointer;
+    color: rgb(19, 74, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(/order-summary-component-main/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+    }
+}
